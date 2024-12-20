@@ -1,0 +1,1 @@
+This React component uses the wrong lifecycle method to update the state.  `componentWillReceiveProps` is deprecated and no longer called in newer React versions.  This leads to stale props being used, causing unexpected behavior or rendering issues.  The state isn't updated with the new props, resulting in visual glitches or data inconsistencies.
